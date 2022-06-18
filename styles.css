@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size: 18px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.topsection{
+    background-image: url(./bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    margin: 0px;
+    width: 100%;
+    background-size: cover;
+   
+}
+.headnav{
+    margin: 0px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+       
+}
+.headnav button{
+    background-color: rgb(253, 253, 253);
+    border-radius: 35px;
+    align-items: center;
+    padding: 10px 50px;
+    border: none;
+    box-shadow: 1px 2px 1px 2px hsla(0, 2%, 17%, 0.1);
+}
+.topcontent{
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin: 30px;
+}
+.topcontent .left{
+    flex: 50%;
+    margin: 10px;
+    padding: 10px;
+
+}
+h1{
+    margin: 10px;
+    color: hsl(192, 100%, 9%);
+}
+.topcontent p{
+    margin: 10px;
+    color: hsl(192, 100%, 9%);
+}
+.topcontent button{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border-radius: 35px;
+    align-items: center;
+    padding: 10px 50px;
+    border: none;
+}
+.topcontent .right{
+    flex: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+.topcontent img{
+    height: 300px;
+    width: 100%;
+}
+.middlesection{
+    background-color: white;
+}
+.firstwrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 50px 20px 50px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px 2px hsla(0, 2%, 17%, 0.1);
+}
+.firstwrap .right img{
+    height: 400px;
+    width: 
+    margin: 20px;
+    
+}
+.firstwrap .right{
+    flex: 50%;
+    
+}
+h3{
+    
+    margin: 10px 50px 10px 50px;
+    padding: 20px;
+    color: hsl(192, 100%, 9%);
+}
+.middlesection p{
+    margin: 0px 50px 10px 50px;
+    padding: 10px;
+}
+.firstwrap .left{
+    height: 300px;
+    flex: 50%;
+}
