@@ -146,6 +146,10 @@ h3{
     height: 300px;
     flex: 50%;
 }
+.thirdwrap .left p{
+    margin: 0px 50px 10px 50px;
+    padding: 10px;
+}
 
 .floatbox{
     margin: 30px 50px 20px 50px;
